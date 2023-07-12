@@ -1,0 +1,87 @@
+* {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	min-width: 378px;
+}
+
+h1{
+	color: white;
+	text-shadow: 1px 2px 2px black, 0 0 25px #03C4A1, 0 0 5px #03C4A1;
+	text-align: center;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.form{
+	color: white;
+	text-shadow: 1px 2px 2px black, 0 0 25px #03C4A1, 0 0 5px #03C4A1;
+	text-align: center;
+	font-size: 28px;
+}
+
+form.form {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	height: 50px;
+	margin-top: 20px;
+}
+
+
+.form-group label {
+	font-size: 1rem;
+	margin-bottom: 5px;
+}
+
+.form-group input {
+	font-size: 1rem;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  	height: 100%;
+}
+
+@media (max-width: 600px) {
+	.nav-bar__nav-list {
+		flex-direction: column;
+	a{
+		margin-left: 10px;
+		padding: 0;
+	}}
+	
+	.dif {
+		display: flex;
+		flex-direction: column;
+		width: 20%;
+		height: 50px;
+		margin-top: 40px;
+	}
+	.dif label {
+		font-size: 1rem;
+		margin-bottom: 5px;
+	}
+
+	.dif input {
+		font-size: 1rem;
+		padding: 5px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		height: 100%;
+	}
+}

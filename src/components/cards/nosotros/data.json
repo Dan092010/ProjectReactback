@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "titulo": "Nuestra misión y nuestros valores",
+    "descripcion": "Nuestra misión consiste en mejorar el acceso a la tecnología con responsabilidad y respeto.",
+    "imagen": "./img/logos/Tec1.jpeg"
+  },
+  {
+    "id": 2,
+    "titulo": "Nuestra misión y nuestro enfoque",
+    "descripcion": "Somos un emprendimiento Colombiano que busca mejorar el acceso a los artículos electrónicos y que sean económicos sin perder la calidad del producto.",
+    "imagen": "./img/logos/Tec2.jpg"
+  }
+
+]
