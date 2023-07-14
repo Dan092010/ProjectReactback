@@ -1,5 +1,5 @@
 import '../assets/css/alta.scss';
-import { FormContext } from '../components/FormContext';
+import { FormContext } from '../components/Formularios/FormContext';
 import React, { useState, useContext } from 'react';
 
 

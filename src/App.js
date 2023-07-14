@@ -5,7 +5,6 @@ import Contacto from './pages/contacto'
 import Nosotros from './pages/nosotros'
 import Home from './pages/home'
 
-
 function App() {
   return (
         <div>
@@ -14,7 +13,8 @@ function App() {
               <Navbar/>
 
               <Routes>
-                <Route path='home' element={<Home />}/>
+                <Route path='/' element={<Home />} exact/>
+                <Route path='home' element={<Home />} />
                 <Route path='alta' element={<Alta />}/>
                 <Route path='contacto' element={<Contacto />}/>
                 <Route path='nosotros' element={<Nosotros />}/>
