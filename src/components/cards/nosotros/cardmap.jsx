@@ -1,17 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import Info from './info';
-import products from './data.json';
 
-function CardMap() {
+const CardMap = () => {
 
-  fetch('/data.json')
-  	.then(response => response.json())
-	.then(data => {
-		console.log(data.result)
-	});
+  const [cards, setCards] = React.useState([])
+
+  React.useEffect(() => {
+
+    obtenerCards()
+
+  }, [])
+
+  const obtenerCards = async () => {
+    const data = await fetch('/data.json')
+    const view = await data.json()
+    setCards(view)
+  }
+
+  
   return (
     <div>
-      {products.map((product) => (
+      {cards.map((product) => (
         <Info
           key={product.id}
           id={product.id}
