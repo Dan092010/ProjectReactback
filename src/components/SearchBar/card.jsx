@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ val }) => {
   return (
     <div id={val.id} className="cards-container">
-      <a href="#" className="card">
+      <div href="#" className="card">
         <article className="card__article">
           <div className="card__image-container">
             <img className="card__image" src={val.imagen} alt={val.titulo} />
@@ -18,7 +18,7 @@ const Card = ({ val }) => {
             </div>
           </div>
         </article>
-      </a>
+      </div>
     </div>
   );
 };
