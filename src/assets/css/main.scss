@@ -27,12 +27,11 @@ h2 {
 }
 
 .cards-container {
-  margin: 10px 40px;
-  box-shadow: 0px 4px 8px 2px #3a06f8, 0 6px 5px 0 #F806CC;
-  float: left;
+  margin: 10px 80px;
+  box-shadow: 0px 4px 8px 2px #3a06f8, 0 6px 5px 0 #F806CC;  
   width: 300px;
   position: relative;
-  display: grid;
+  display:inline-table;
   margin-bottom: 50px;
 }
 

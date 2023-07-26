@@ -1,0 +1,25 @@
+<React.StrictMode>
+    <App>  
+        <Navbar>
+            <Routes>
+                <Home>
+                    <Searchbar>
+                        <SearchInput/>
+                        <Card/>
+                    </Searchbar>                  
+                </Home>
+                <Alta>
+                    <FormContext.Provider/>
+                </Alta>
+                <Contacto>
+                    <FormContext.Provider/>
+                </Contacto>
+                <Nosotros>
+                    <CardMap>
+                        <Info/>
+                    </CardMap>
+                </Nosotros>
+            </Routes>
+        </Navbar>
+    </App>
+</React.StrictMode>

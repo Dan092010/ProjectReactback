@@ -1,6 +1,6 @@
 import '../assets/css/alta.scss';
 import { FormContext } from '../components/Formularios/FormContext';
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 
 
 function Alta() {
