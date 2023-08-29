@@ -26,12 +26,13 @@ function Searchbar() {
         {data
           .filter((val) => {
             if (searchTerm === "") {
-              return val;
+              return true;
             } else if (
               val.titulo.toLowerCase().includes(searchTerm.toLowerCase())
             ) {
-              return val;
+              return true; 
             }
+            return false; 
           })
           .map((val) => {
             return <Card val={val} key={val.id} />;
