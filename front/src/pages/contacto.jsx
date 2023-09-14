@@ -24,20 +24,20 @@ function Contacto() {
 	<div>		
 		<FormContext.Provider value={{ formData, setFormData }}>
 
-			<form className="form"name="formulario" onSubmit={validarFormulario}>
+			<form className="form"name="formulario" action='/formulario' method='POST' onSubmit={validarFormulario}>
 					<h1>Completa el formulario</h1>
 				
-				<div className="form-group" onSubmit={validarFormulario}>
+				<div className="form-group" >
 					<label htmlFor="nombre">Nombre:</label>
 					<input type="text" id="nombre" name="nombre" required minLength="3" pattern="^[a-zA-Z\s]*$"/>
 				</div>
 
-				<div className="form-group" onSubmit={validarFormulario}>
+				<div className="form-group" >
 					<label htmlFor="email">Email:</label>
 					<input type="text" id="email" name="email" required/>
 				</div>
 
-				<div className="form-group" onSubmit={validarFormulario}>
+				<div className="form-group" >
 					<label htmlFor="comentarios">Comentarios:</label>
 					<textarea id="comentarios" name="comentarios" maxLength="150"></textarea>
 				</div>
