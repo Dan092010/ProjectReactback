@@ -1,6 +1,7 @@
 import '../assets/css/contact.scss';
 import React, { useState } from 'react';
 import { FormContext } from '../components/Formularios/FormContext';
+import axios from 'axios'; // Importa Axios
 
 
 
@@ -14,9 +15,9 @@ function Contacto() {
 			email: event.target.email.value,
 			comentarios: event.target.comentarios.value,
 		});
-
 		console.log(setFormData);
-
+		const response =  axios.post('http://localhost:5000/api/formulario', formData);
+		console.log(response);	
 		event.preventDefault();
 	}
 	

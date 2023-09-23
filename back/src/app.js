@@ -35,6 +35,7 @@ app.post('/api/formulario', async (req, res) => {
   }
 });
 
+
 // Otras rutas y controladores pueden agregarse aquí
 
 app.use((req, res) => {
