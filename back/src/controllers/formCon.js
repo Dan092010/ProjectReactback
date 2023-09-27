@@ -1,4 +1,4 @@
-import Form from '../models/Formulario';
+import Form from '../models/formCon';
 
 async function insertarDatos(nombre, email, comentarios){
     try {

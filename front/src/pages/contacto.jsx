@@ -1,8 +1,7 @@
 import '../assets/css/contact.scss';
 import React, { useState } from 'react';
 import { FormContext } from '../components/Formularios/FormContext';
-import axios from 'axios'; // Importa Axios
-
+import axios from 'axios'; 
 
 
 function Contacto() {
