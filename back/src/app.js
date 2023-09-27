@@ -3,6 +3,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 
 const FormularioRouter = require('./routes/formCon');
+const FormRouter = require('./routes/formAl');
 
 const app = express();
 
@@ -10,6 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use( FormularioRouter);
+app.use( FormRouter);
 
 mongoose
   .connect('mongodb+srv://mela:12345@project.6fzadxx.mongodb.net/?retryWrites=true&w=majority')
@@ -21,9 +23,6 @@ mongoose
   .catch((error) => {
     console.error('Error al conectar a la base de datos:', error);
   });
-
-
-
 
 // Otras rutas y controladores pueden agregarse aquí
 
