@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 
 const FormularioRouter = require('./routes/formCon');
 const FormRouter = require('./routes/formAl');
+const cardNosRouter = require('./routes/cardNos');
 
 const app = express();
 
@@ -12,6 +13,7 @@ app.use(express.json());
 
 app.use( FormularioRouter);
 app.use( FormRouter);
+app.use( cardNosRouter);
 
 mongoose
   .connect('mongodb+srv://mela:12345@project.6fzadxx.mongodb.net/?retryWrites=true&w=majority')

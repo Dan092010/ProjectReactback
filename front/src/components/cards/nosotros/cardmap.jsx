@@ -15,7 +15,7 @@ const CardMap = () => {
     const data = await fetch('/data.json')
     const view = await data.json()
     setCards(view)
-  }
+  };
 
   
   return (
