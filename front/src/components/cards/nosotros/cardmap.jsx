@@ -10,20 +10,14 @@ const CardMap = () => {
   }, []);
 
   const obtenerCards = async () => {
-<<<<<<< Updated upstream
-    const data = await fetch('/data.json')
-    const view = await data.json()
-    setCards(view)
-  }
-=======
     try {
       const response = await axios.get('http://localhost:5000/api/cardNos');
       setCards(response.data);
+      console.log(response.data)
     } catch (error) {
       console.error('Error al obtener las tarjetas:', error);
     }
   };
->>>>>>> Stashed changes
 
   return (
     <div>
