@@ -1,36 +1,43 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Info from './info';
+import axios from 'axios';
 
 const CardMap = () => {
+  const [cards, setCards] = useState([]);
 
-  const [cards, setCards] = React.useState([])
-
-  React.useEffect(() => {
-
-    obtenerCards()
-
-  }, [])
+  useEffect(() => {
+    obtenerCards();
+  }, []);
 
   const obtenerCards = async () => {
+<<<<<<< Updated upstream
     const data = await fetch('/data.json')
     const view = await data.json()
     setCards(view)
   }
+=======
+    try {
+      const response = await axios.get('http://localhost:5000/api/cardNos');
+      setCards(response.data);
+    } catch (error) {
+      console.error('Error al obtener las tarjetas:', error);
+    }
+  };
+>>>>>>> Stashed changes
 
-  
   return (
     <div>
-      {cards.map((product) => (
+      {cards.map((card) => (
         <Info
-          key={product.id}
-          id={product.id}
-          titulo={product.titulo}
-          descripcion={product.descripcion}
-          imagen={product.imagen}
+          key={card.id}
+          id={card.id}
+          titulo={card.titulo}
+          descripcion={card.descripcion}
+          imagen={card.imagen}
         />
       ))}
     </div>
   );
-}
+};
 
 export default CardMap;
