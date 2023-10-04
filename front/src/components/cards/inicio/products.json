@@ -5,7 +5,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 550000,
     "imagen": "./img/productos/BMWM1.PNG",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 141000,
     "imagen": "./img/productos/BMW-M4.PNG",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 21900,
     "imagen": "./img/productos/Camaro.png",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 252400,
     "imagen": "./img/productos/MB190SL.PNG",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 240000,
     "imagen": "./img/productos/MB300SL.PNG",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 300000,
     "imagen": "./img/productos/Mclaren720s.png",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 2000000,
     "imagen": "./img/productos/P1.png",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 30000,
     "imagen": "./img/productos/MINI.png",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 580000,
     "imagen": "./img/productos/Skyline.png",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 120990,
     "imagen": "./img/productos/NissanGtr.png",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 3200000,
     "imagen": "./img/productos/Porsche911.png",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 314000,
     "imagen": "./img/productos/Porsche911GT3.png",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   },
   {
     "id": 13,
@@ -101,6 +101,6 @@
     "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit deleniti consequuntur inventore minus ea consequatur omnis. Eaque repudiandae amet ad!",
     "precio": 499999,
     "imagen": "./img/productos/Toyota.png",
-    "linkCompra": "#"
+    "linkCompra": "/alta"
   }
 ]

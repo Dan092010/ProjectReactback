@@ -8,8 +8,6 @@ const FormSchema = new mongoose.Schema({
   descripcionCorta: String,
   descripcionLarga: String,
   envioSinCargo: Boolean,
-  edadDesde: Number,
-  edadHasta: Number,
 });
 
 module.exports = mongoose.model('formAl', FormSchema);

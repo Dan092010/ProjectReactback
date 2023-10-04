@@ -4,9 +4,11 @@ import React, { useState } from 'react';
 import axios from 'axios'; 
 
 
+
 function Alta() {
 	
 	const [formData, setFormData] = useState({});
+
 
 	const validarFormulario = (event) =>{
 		event.preventDefault();
@@ -19,8 +21,6 @@ function Alta() {
 			descripcionCorta: event.currentTarget["descripcion-corta"].value,
 			descripcionLarga: event.currentTarget["descripcion-larga"].value,
 			envioSinCargo: event.currentTarget["envio-sin-cargo"].checked,
-			edadDesde: event.currentTarget["edad-desde"].value,
-			edadHasta: event.currentTarget["edad-hasta"].value,
 			foto: event.currentTarget.foto.files[0],
   		});
 		console.log(formData);
@@ -75,16 +75,6 @@ function Alta() {
 				<div className="form-group" >
 					<label htmlFor="envioSinCargo">Envío sin cargo:</label>
 					<input type="checkbox" id="envio-sin-cargo" name="envio-sin-cargo" />
-				</div>
-				
-				<div className="form-group">
-					<label htmlFor="edadDesde">Edad desde:</label>
-					<input type="number" id="edad-desde" name="edad-desde" required />
-				</div>
-			
-				<div className="dif" >
-					<label htmlFor="edadHasta">Edad hasta:</label>
-					<input type="number" id="edad-hasta" name="edad-hasta" required />
 				</div>
 				
 				<div className="form-group" >

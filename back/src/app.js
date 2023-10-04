@@ -1,9 +1,12 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-
+const bodyParser = require('body-parser');
 
 const FormularioRouter = require('./routes/formCon');
+const FormRouter = require('./routes/formAl');
+const cardNosRouter = require('./routes/cardNos');
+const cardInicioRouter = require('./routes/cardInicio');
 
 const app = express();
 
@@ -11,9 +14,10 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json());
 
-app.use( FormularioRouter);
-app.use( FormRouter);
-app.use( cardNosRouter);
+app.use(FormularioRouter);
+app.use(FormRouter);
+app.use(cardNosRouter);
+app.use(cardInicioRouter);
 
 mongoose
 .connect('mongodb+srv://mela:12345@project.6fzadxx.mongodb.net/?retryWrites=true&w=majority')
@@ -25,9 +29,6 @@ mongoose
 .catch((error) => {
     console.error('Error al conectar a la base de datos:', error);
   });
-
-
-
 
 // Otras rutas y controladores pueden agregarse aquí
 
